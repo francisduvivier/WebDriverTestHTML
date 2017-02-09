@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="white" onload="window.alert('Mainpage Onload Alert')">
+<!--<body>-->
+<!--<script>window.alert=function (msg){-->
+<!--document.write('<p>alert logged: '+msg+'</p>');-->
+<!--};</script>-->
+<script src="scriptAlert.js"></script>
+<script src="scriptRedirect.js"></script>
+<script src="scriptListeners.js"></script>
+<script>window.alert('Mainpage Alert'); document.write('<p>Did mainpage alert</p>')</script>
+
+<div ><p>window.screen.height: <script>document.write(window.screen.height)</script></p></div>
+<div ><p>window.screen.availWidth: <script>document.write(window.screen.availWidth)</script></p></div>
+<div ><p>window.screen.width: <script>document.write(window.screen.width)</script></p></div>
+<div ><p>window.screen.availHeight: <script>document.write(window.screen.availHeight)</script></p></div>
+<div ><p>window.outerWidth: <script>document.write(window.outerWidth)</script></p></div>
+<div ><p>window.innerWidth: <script>document.write(window.innerWidth)</script></p></div>
+<div ><p>window.outerHeight: <script>document.write(window.outerHeight)</script></p></div>
+<div ><p>window.innerHeight: <script>document.write(window.innerHeight)</script></p></div> </body>
+<div ><p>document.body.clientHeight: <script>document.write(document.body.clientHeight)</script></p></div>
+<div ><p>document.body.clientWidth: <script>document.write(document.body.clientWidth)</script></p></div>
+<iframe src="iframe1.html"></iframe>
+<p><a href="http://piratesbay.pe">go to piratesbay.pe</a></p>
+
+<p><a onclick="window.open('http://eztv.tf')" href="tpb.su">go to tpb.su</a></p>
+<div onclick="document.location='http://tweakers.net'"><p>P with div with onlick with document.location</p></div>
+<div onclick="document.location='http://news.ycombinator.com'"><a href="http://engadget.es">a to engadget with div with onlick with document.location</a></div>
+</html>
