@@ -32,7 +32,7 @@
 
 
 <iframe src="iframe1.html"></iframe>
-<p><a onclick="window.open('index2.html')" href="mainPageWindowOpen.html"> a href with window open</a></p>
+<p><a onclick="a=document.createElement('a'); a.setAttribute('href','index2.html'); a.setAttribute('target','_blank'); a.click()" href="mainPageWindowOpen.html"> a href with window open</a></p>
 
 <p><a onclick="window.open('http://eztv.tf')" href="tpb.su">go to tpb.su</a></p>
 <div onclick="document.location='http://tweakers.net'"><p>P with div with onlick with document.location</p></div>
